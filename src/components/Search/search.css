@@ -1,0 +1,15 @@
+.searchBox input::placeholder {
+  color: #000 !important;
+}
+
+.searchBox input::-moz-placeholder {
+  color: #000 !important; /* Firefox 19+ */
+}
+
+.searchBox input::-webkit-input-placeholder {
+  color: #000 !important; /* Chrome, Safari, Opera */
+}
+
+.searchBox input:-ms-input-placeholder {
+  color: #000 !important; /* IE 10+ */
+}
